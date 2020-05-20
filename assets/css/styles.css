@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 header{
     height: 100px;
@@ -97,21 +98,6 @@ header{
     margin-right: 100px;
     margin-top: 20px;
 }
-.banner a{
-    display: block;
-    text-transform: uppercase;
-    background-color: #CFA668;
-    margin-right: 125px;
-    margin-top:30px;
-    color: #fff;
-    font-size: 10px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px ;
-    border-radius: 20px;
-    transition: filter 0.2s;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .banner a:hover{
     filter: brightness(70%)
 }
@@ -138,4 +124,88 @@ header{
 }
 .banner .pointer.active{
     background-color: #CFA668;
+}
+.default{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section-title, .default .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title{
+    font-size: 20px;
+}
+.default .section-desc{
+    font-size: 12px;
+    color: rgb(136, 131, 131);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.default .section-body{
+    margin: auto;
+    max-width: 1140px;
+}
+.default.ligth{
+    background-color: rgb(243, 236, 225);
+}
+.default.ligth .section-title, .default.ligth .section-body{
+    color: #0d0c0f;
+}
+.default.dark{
+    background-color: #241c30;
+}
+.default.dark .section-title, .default.dark .section-body{
+    color: #fff;
+}
+.banner a{
+    display: block;
+    text-transform: uppercase;
+    background-color: #CFA668;
+    margin-right: 125px;
+    margin-top:30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    transition: filter 0.2s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button{
+    display: inline-block;
+    margin-top:30px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #CFA668;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    transition: filter 0.2s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* CSS de áreas específicas*/
+
+.section-aboutus{
+    display: flex;
+}
+.section-aboutus--left{
+    flex: 1;
+}
+.section-aboutus--left p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #494646;
 }
