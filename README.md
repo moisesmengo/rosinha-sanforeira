@@ -5,4 +5,4 @@ Site fictício utilizando conceitos avançados de CSS3 e HTML5
 
 ## Versão para desktop
 
-![Imagem Padrão]('../../assets/images/img1.png')
+![Imagem Padrão](assets/images/img1.png)
