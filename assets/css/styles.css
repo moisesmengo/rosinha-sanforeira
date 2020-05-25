@@ -458,3 +458,52 @@ header{
     font-size: 13px;
     color: #D5C7B0;
 }
+
+footer {
+    background-color: #241c30;
+}
+.section-footer{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+    height: 180px;
+}
+.section-footer-content{
+    padding: 30px;
+    display: flex;
+}
+.section-footer-content .content{
+    width: 280px;
+    height: 120px;
+    min-height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.content-area-social{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-area-social span{
+    color: #D5C7B0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.content-area-text{
+    text-align: justify;
+    color: #D5C7B0;
+    font-size: 13px;
+}
+.content-area-contact{
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #D5C7B0;
+    padding-bottom: 5px;
+}
+.content-area-contact input{
+    background-color: transparent;
+    border-right: none;
+    height: 30px;
+}
