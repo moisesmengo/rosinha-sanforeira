@@ -2,6 +2,8 @@
 Site fictício utilizando conceitos avançados de CSS3 e HTML5
 
 * Este site utiliza conceitos avançados do CSS3
+  
+[Link para o site](https://quizzical-meitner-aa1552.netlify.app/)
 
 ## Versão para desktop
 
